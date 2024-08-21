@@ -9,4 +9,10 @@ Welcome to my collection of Python coding problems! This repository contains var
   - A digit is counted as a cow only once, even if it appears multiple times in the target number.
   - The game continues until the player guesses the correct number.
   - The game tracks the number of guesses it takes for the player to guess the target number.
-  - This game is a fun way to test your logical thinking and pattern recognition skills.
+
+2. Birthday Plots: A program that assigns a random number of birthdays to each month, with the total number of birthdays for each month determined by a maximum value set by the user.
+
+  - The program initializes the number of birthdays for each month to zero.
+  - The user is prompted to enter the maximum number of birthdays that any single month can have.
+  - The program then assigns a random number of birthdays to each month, with values ranging from 0 to the user-defined maximum.
+  - The results are plotted using the `pyplot` module from Matplotlib, providing a visual representation of the distribution of birthdays across the months.
