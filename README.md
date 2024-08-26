@@ -25,3 +25,13 @@ An interactive program that translates a user-inputted sentence into Morse code.
 - The Morse code for the entire sentence is printed out, with each Morse code character separated by a space.
 - The user can choose to translate another sentence or exit the program.
 
+### Hangman:
+A classic word-guessing game where the player tries to guess a randomly selected word one letter at a time.
+- The game begins by selecting a random word from a predefined list.
+- The player is informed of the number of letters in the target word.
+- The player guesses one letter at a time, and the game reveals whether the guessed letter is in the word.
+- If the guessed letter is in the word, it is displayed in its correct position(s) within the word.
+- If the guessed letter is not in the word, the player makes a mistake.
+- The game continues until the player either correctly guesses the word or makes six mistakes.
+- If the player guesses the word before reaching six mistakes, they win.
+- If the player makes six mistakes, they lose, and the target word is revealed.
