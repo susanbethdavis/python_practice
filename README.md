@@ -35,3 +35,13 @@ A classic word-guessing game where the player tries to guess a randomly selected
 - The game continues until the player either correctly guesses the word or makes six mistakes.
 - If the player guesses the word before reaching six mistakes, they win.
 - If the player makes six mistakes, they lose, and the target word is revealed.
+
+### Friday the 13th:
+A program that identifies all occurrences of Friday the 13th for a user-specified year.
+- The user is prompted to enter a positive year.
+- The program uses try and except blocks to handle invalid input, ensuring the user enters a valid year. If an invalid year is provided, an exception is raised with an appropriate   
+  error message.
+- The program initializes a datetime variable representing January 1st of the entered year.
+- The program loops through each month of the year, checking if the 13th day falls on a Friday.
+- If the 13th day of any month is a Friday, the program records and prints the date.
+- This exercise allows you to practice using Python's datetime module for date and time manipulation
